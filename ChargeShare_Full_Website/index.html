@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6f5ee">
+<meta name="description" content="ChargeShare connects EV drivers who need a charge with nearby EV charger providers.">
+<title>ChargeShare – EV Rescue Network</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="auth-shell">
+  <aside class="brand">
+    <div class="logo"><svg viewBox="0 0 24 24" fill="#719f64" aria-hidden="true"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg>ChargeShare</div>
+    <div class="pitch"><h2>Charge from a neighbour. Earn from your own charger.</h2><p>India’s peer-to-peer network for EV owners who’d rather share than search.</p><ul><li>Driver and provider onboarding</li><li>Estimate charging costs before requesting help</li><li>Find a nearby demo provider network</li></ul></div>
+    <small>© 2026 ChargeShare · Prototype</small>
+  </aside>
+  <main class="auth-main"><div class="auth-card" id="authApp" aria-live="polite"></div></main>
+</section>
+<section id="marketShell" aria-label="ChargeShare dashboard">
+  <header class="top"><div class="logo"><i>⚡</i>ChargeShare</div><div id="who"></div></header>
+  <main class="wrap"><div id="marketApp"></div></main>
+</section>
+<div id="modal"></div><div id="toast" role="status" aria-live="polite"></div>
+<script src="script.js" defer></script>
+<script src="marketplace.js" defer></script>
+</body>
+</html>
